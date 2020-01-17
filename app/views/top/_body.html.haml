@@ -1,0 +1,45 @@
+.body
+  .body__container1
+    .body__container1__center
+      .body__container1__center__upper
+      .body__container1__center__profile
+        .body__container1__center__profile__comment
+          %p 人の想いをinternetを通じ表現する
+          %p 想いを届けるお手伝いが出来ればと考えています
+          %a
+        .body__container1__center__profile__image
+          = image_tag "profile.1.jpg", height: '400px', width: '400px'
+  .body__container2
+    .body__container2__theme
+      Profile
+    .body__container2__box
+      .body__container2__box__1
+        %p 都内のアパレル店員を経て30才目前にしてオーストラリアへ、
+        帰国後、地元和歌山で建材メーカーで営業として勤務するも挫折
+        %p 都内のプログラミングスクールに通い、人の想いを繋げるWEBクリエーターを目指す
+  .body__container3
+    .body__container3__theme
+      Skill
+    .body__container3__box
+      .body__container3__box__1
+        %h2 デザイン
+        %b Photoshopを使いwebデザインや名刺の作成が出来ます
+      .body__container3__box__2
+        %h2 フロントエンド
+        %b HTML
+        %b CSS
+        %b Javascript
+      .body__container3__box__3
+        %h2 バックエンド
+        %b Ruby
+  .body__container4
+    .body__container4__theme
+      Works
+    .body__container4__box
+      .body__container4__box__1
+      .body__container4__box__2
+        = link_to 'http://18.176.21.46' do
+          = image_tag "chat-space.png", class: 'work'
+      .body__container4__box__3
+        = link_to 'http://52.192.4.46/' do
+          = image_tag "Fmarket.png", class: 'work'
