@@ -4,12 +4,11 @@
       .body__container1__center__upper
       .body__container1__center__profile
         .body__container1__center__profile__comment
-          %p 人の想いをinternetを通じ表現する
-          %p 想いを届けるお手伝いが出来ればと考えています
+          %p 人の想いをインターネットを通じ表現する、想いを届けるお手伝いが出来ればと考えています
           %a
         .body__container1__center__profile__image
           = image_tag "profile.1.jpg", height: '400px', width: '400px'
-  .body__container2
+  .body__container2#profile
     .body__container2__theme
       Profile
     .body__container2__box
@@ -17,29 +16,53 @@
         %p 都内のアパレル店員を経て30才目前にしてオーストラリアへ、
         帰国後、地元和歌山で建材メーカーで営業として勤務するも挫折
         %p 都内のプログラミングスクールに通い、人の想いを繋げるWEBクリエーターを目指す
-  .body__container3
+  .body__container3#skill
     .body__container3__theme
       Skill
     .body__container3__box
       .body__container3__box__1
         %h2 デザイン
-        %b Photoshopを使いwebデザインや名刺の作成が出来ます
+        = image_tag "photoshop-cc.svg", size: '30x30'
+        %p Photoshop
+        = image_tag "lightroom-cc.svg", size: '30x30'
+        %p Lightroom
+        = image_tag "adobe-illustrator-cc.svg", size: '30x30'
+        %p illustrator
       .body__container3__box__2
         %h2 フロントエンド
-        %b HTML
-        %b CSS
-        %b Javascript
+        %i.fab.fa-html5
+        %p HTML
+        %i.fab.fa-css3-alt
+        %p CSS
+        %i.fab.fa-js
+        %p JavaScript
       .body__container3__box__3
         %h2 バックエンド
-        %b Ruby
-  .body__container4
+        %i.fas.fa-gem
+        %p Ruby (Ruby on Rails)
+        %h2 サーバー
+        %i.fab.fa-aws
+        %p AWS
+
+  .body__container4#works
     .body__container4__theme
       Works
     .body__container4__box
       .body__container4__box__1
+        = link_to "" do
+          = image_tag "support-space.png", class: 'works'
+          %i.fas.fa-wrench
+            メンテナンス中
       .body__container4__box__2
         = link_to 'http://18.176.21.46' do
-          = image_tag "chat-space.png", class: 'work'
+          = image_tag "chat-space.png", class: 'works'
       .body__container4__box__3
         = link_to 'http://52.192.4.46/' do
-          = image_tag "Fmarket.png", class: 'work'
+          = image_tag "Fmarket.png", class: 'works'
+  .body__container5#contact
+    .body__container5__theme
+      Contact
+    .body__container5__box
+      .body__container5__box__1
+        %P ご依頼は下記アドレスまでよろしくお願いいたします！
+        %p h.ginnoringokara41@icloud.com
