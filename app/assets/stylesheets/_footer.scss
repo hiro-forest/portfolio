@@ -2,6 +2,9 @@
   width: 100vw;
   height: 20vh;
   background-color: #ccc;
+  @media (max-width: 800px){
+    height: 100%;
+  }
   &__container1 {
     max-width: 980px;
     margin: 10px auto;
@@ -19,5 +22,9 @@
     max-width: 980px;
     margin: 30px auto;
     text-align: center;
+    @media (max-width:800px){
+      margin: 20px auto 0 auto;
+      padding-bottom: 10px;
+    }
   }
 }
