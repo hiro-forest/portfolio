@@ -1,0 +1,25 @@
+[debug] [2020-01-18T08:06:01.480Z] ----------------------------------------------------------------------
+[debug] [2020-01-18T08:06:01.481Z] Command:       /Users/hiroforest/.nodebrew/node/v12.13.1/bin/node /Users/hiroforest/.nodebrew/current/bin/firebase serve
+[debug] [2020-01-18T08:06:01.481Z] CLI Version:   7.12.1
+[debug] [2020-01-18T08:06:01.481Z] Platform:      darwin
+[debug] [2020-01-18T08:06:01.481Z] Node Version:  v12.13.1
+[debug] [2020-01-18T08:06:01.482Z] Time:          Sat Jan 18 2020 17:06:01 GMT+0900 (GMT+09:00)
+[debug] [2020-01-18T08:06:01.482Z] ----------------------------------------------------------------------
+[debug] [2020-01-18T08:06:01.482Z] 
+[debug] [2020-01-18T08:06:01.486Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
+[debug] [2020-01-18T08:06:01.486Z] > authorizing via signed-in user
+[debug] [2020-01-18T08:06:01.490Z] [iam] checking project h-portfolio41 for permissions ["firebase.projects.get"]
+[debug] [2020-01-18T08:06:01.491Z] >>> HTTP REQUEST POST https://cloudresourcemanager.googleapis.com/v1/projects/h-portfolio41:testIamPermissions  
+
+[debug] [2020-01-18T08:06:02.481Z] <<< HTTP RESPONSE 200
+[debug] [2020-01-18T08:06:02.483Z] >>> HTTP REQUEST GET https://firebase.googleapis.com/v1beta1/projects/h-portfolio41  
+ 
+[debug] [2020-01-18T08:06:03.299Z] <<< HTTP RESPONSE 200
+[info] 
+[info] === Serving from '/Users/hiroforest/projects/portfolio'...
+[info] 
+[debug] [2020-01-18T08:06:03.300Z] >>> HTTP REQUEST GET https://firebase.googleapis.com/v1beta1/projects/h-portfolio41/webApps/-/config  
+ 
+[debug] [2020-01-18T08:06:04.323Z] <<< HTTP RESPONSE 200
+[info] i  hosting: Serving hosting files from: public
+[info] ✔  hosting: Local server: http://localhost:5000
