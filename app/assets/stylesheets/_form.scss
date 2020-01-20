@@ -1,0 +1,12 @@
+.form {
+  padding-top: 20px;
+  background-color: #ccc;
+  &__box {
+    height: 90vh;
+    max-width: 980px;
+    margin: 0 auto;
+    @media (max-width: 700px){
+      height: 150vh;
+    }
+  }
+}
