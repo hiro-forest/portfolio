@@ -31,27 +31,18 @@
       .body__container3__box__1
         %h2 Design
         = image_tag "photoshop-cc.svg", size: '50x50'
-        -# %p Photoshop
         = image_tag "lightroom-cc.svg", size: '50x50'
-        -# %p Lightroom
         = image_tag "adobe-illustrator-cc.svg", size: '50x50'
-        -# %p illustrator
       .body__container3__box__2
         %h2 Frontend
         %i.fab.fa-html5
-        -# %p HTML
         %i.fab.fa-css3-alt
-        -# %p CSS
         %i.fab.fa-js
-        -# %p JavaScript
       .body__container3__box__3
         %h2 Backend
         %i.fas.fa-gem
-        -# %p Ruby (Ruby on Rails)
         %h2 Server
         %i.fab.fa-aws
-        -# %p AWS
-
   .body__container4#works
     .body__container4__theme
       Works
@@ -72,6 +63,8 @@
       Contact
     .body__container5__box
       .body__container5__box__1
-        %c ご依頼は下記アドレスまで
+        %c ご依頼は下記お問い合わせまで
         %br よろしくお願いいたします！
-        %p h.ginnoringokara41@icloud.com
+      .body__container5__box__2
+        = link_to top_contact_path do
+          %i.fas.fa-envelope
