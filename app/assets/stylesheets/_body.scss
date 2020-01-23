@@ -49,13 +49,13 @@
 }
 .body {
   width: 100vw;
-  height: 250vh;
+  height: 100%;
   @media (max-width: 800px){
     height: 100%;
   }
   &__container1 {
     width: 100%;
-    height: 50vh;
+    height: 100%;
     // background-color: #ccc;
     @media (max-width: 800px){
       height: 80vh;
@@ -153,7 +153,7 @@
     }
   }
   &__container2 {
-    height: 40vh;
+    height: 100%;
     max-width: 980px;
     margin: 0 auto;
     @media (max-width: 800px){
@@ -183,7 +183,7 @@
     }
   }
   &__container3 {
-    height: 50vh;
+    height: 100%;
     max-width: 980px;
     margin: 0 auto;
     @media (max-width: 800px){
@@ -237,7 +237,7 @@
     }
   }
   &__container4 {
-    height: 50vh;
+    height: 100%;
     max-width: 980px;
     margin: 0 auto;
     @media (max-width: 800px){
@@ -274,7 +274,7 @@
     }
   }
   &__container5 {
-    height: 40vh;
+    height: 100%;
     max-width: 980px;
     margin: 0 auto;
     @media (max-width: 800px){
@@ -301,6 +301,7 @@
       &__2 {
         width: 100%;
         text-align: center;
+        margin-bottom: 80px;
         i {
           text-align: center;
           color: black;
