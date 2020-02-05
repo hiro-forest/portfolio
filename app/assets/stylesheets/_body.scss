@@ -56,10 +56,6 @@
   &__container1 {
     width: 100%;
     height: 100%;
-    // background-color: #ccc;
-    @media (max-width: 800px){
-      height: 80vh;
-    }
     &__center {
       margin: 0 auto;
       max-width: 980px;
